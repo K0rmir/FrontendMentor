@@ -1,0 +1,92 @@
+body {
+    color: hsl(0, 0%, 95%);
+}
+
+
+.cards {
+    display: flex;
+    justify-content: center;
+    margin-top: 150px;
+}
+
+.sedan {
+    background-color: #e28424;
+    width: 350px;
+    height: 500px;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+}
+
+.suv {
+    background-color: #016873;
+    width: 350px;
+    height: 500px;
+}
+
+.luxury {
+    background-color: #00403f;
+    width: 350px;
+    height: 500px;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+.graphic {
+    margin-top: 55px;
+    margin-left: 55px;
+}
+
+h2 {
+    font-family: 'Big Shoulders Display';
+    margin-left: 55px;
+    color: hsl(0, 0%, 95%);
+    text-transform: uppercase;
+    font-size: 45px;
+    margin-bottom: 25px;
+}
+
+p {
+    font-family: 'Lexend Deca';
+    color: hsla(0, 0%, 100%, 0.75);
+    margin-left: 55px;
+    margin-right: 40px;
+    font-size: 15px;
+    line-height: 2;
+}
+
+.learn-more {
+    background-color: hsl(0, 0%, 95%);
+    margin-left: 55px;
+    height: 45px;
+    width: 150px;
+    border-radius: 25px;
+    margin-top: 60px;
+    display: flex;
+    justify-content: center;
+
+}  
+
+a {
+    font-family: 'Lexend Deca';
+    margin-top: 10px;
+    
+}
+
+a:hover {
+    color: black;
+}
+
+.learn-more-sedan {
+    color: #e28424;
+
+}
+
+.learn-more-suv {
+    color: #016873;
+    
+}
+
+.learn-more-luxury {
+    color: #00403f;
+    
+}
